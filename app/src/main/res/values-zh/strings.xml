@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">"SmrtCrt"</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">"电子邮件"</string>
+    <string name="prompt_password">"密码（可选）"</string>
+    <string name="action_sign_in">"登录或注册"</string>
+    <string name="action_sign_in_short">"登录"</string>
+    <string name="error_invalid_email">"此电子邮件地址无效"</string>
+    <string name="error_invalid_password">"此密码太短"</string>
+    <string name="error_incorrect_password">"此密码不正确"</string>
+    <string name="error_field_required">"此项目是必需的。"</string>
+    <string name="permission_rationale">"“提供电子邮件完成需要联系人权限”。"</string>
+    <string name="title_activity_home_screen">"首页"</string>
+
+    <string name="navigation_drawer_open">"打开导航栏"</string>
+    <string name="navigation_drawer_close">"关闭导航栏"</string>
+
+    <string name="action_settings">"设置"</string>
+
+    <string name="title_activity_scanner">"ScannerActivity"</string>
+    <string name="dummy_button">"虚拟按钮"</string>
+    <string name="dummy_content">"DUMMY \ nCONTENT"</string>
+    <string name="search_title">"搜索目前正在开发中。"</string>
+    <string name="search_hint">"搜索产品。"</string>
+    <string name="blankHotDealsContent">"你好我很热"</string>
+
+    <integer-array name="dot_id_arr">
+        <item>@drawable/scrolltest1</item>
+        <item>@drawable/scrolltest2</item>
+        <item>@drawable/scrolltest3</item>
+    </integer-array>
+    <string name="title_activity_offer_detail">"OfferDetail"</string>
+    <string name="title_activity_settings_test">"设置"</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">"概况"</string>
+
+    <string name="pref_title_social_recommendations">"启用社交建议"</string>
+    <string name="pref_description_social_recommendations">"建议人们根据您的消息历史联系"</string>
+
+    <string name="pref_title_display_name">"显示名称"</string>
+    <string name="pref_default_display_name">"约翰·史密斯"</string>
+
+    <string name="pref_title_add_friends_to_messages">"将消息添加到朋友中"</string>
+    <string-array name="pref_example_list_titles">
+        <item>"总是"</item>
+        <item>"如果可能"</item>
+        <item>"Never"</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>"1"</item>
+        <item>"0"</item>
+        <item>"-1"</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">"数据和同步"</string>
+
+    <string name="pref_title_sync_frequency">"同步频率"</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>"15分钟"</item>
+        <item>"30分钟"</item>
+        <item>"1小时"</item>
+        <item>"3小时"</item>
+        <item>"6小时"</item>
+        <item>"Never"</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>"15."</item>
+        <item>"30"</item>
+        <item>"60"</item>
+        <item>"180"</item>
+        <item>"360"</item>
+        <item>"-1"</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>"Entry 1"</item>
+        <item>"Entry 2"</item>
+        <item>"Entry 3"</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value"/>
+
+    <string name="pref_title_system_sync_settings">"系统同步设置"</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">"通知"</string>
+
+    <string name="pref_title_new_message_notifications">"新消息通知"</string>
+
+    <string name="pref_title_ringtone">"铃声"</string>
+    <string name="pref_ringtone_silent">"无声"</string>
+
+    <string name="pref_title_vibrate">"颤动"</string>
+
+    <string name="facebook_app_id">"404693296591616"</string>
+    <string name="fb_login_protocol_scheme">"fb404693296591616"</string>
+    <string name="find_new_stores_and_products">"发现新的商店和产品。"</string>
+    <string name="shop_smart_at_smrtcrt">"智能购物尽在SmrtCrt。"</string>
+    <string name="sign_in">"登录"</string>
+    <string name="use_as_guest_user">"以作访客户登录"</string>
+    <string name="sign_in_with_facebook_in_development">"使用Facebook登入（开发中）"</string>
+    <string name="sign_in_with_twitter_in_development">"使用Twitter登录（开发中）"</string>
+    <string name="sign_in_with_google_in_development">"使用Google+登入（开发中）"</string>
+    <string name="or_log_in_to_your_own_account">"或登录到您自己的帐户。"</string>
+    <string name="email">"电子邮件"</string>
+    <string name="password">"密码"</string>
+    <string name="log_in">"登录"</string>
+    <string name="create_an_account">"创建一个帐户。"</string>
+    <string name="forgot_password">"忘记密码？"</string>
+    <string name="create_your_own_account">"创建您自己的帐户。"</string>
+    <string name="name">"名字"</string>
+    <string name="sign_up">"注册"</string>
+    <string name="enter_your_email_here">"在此输入您的电子邮件"</string>
+    <string name="we_are_very_sorry_this_feature_is_currently_unavailable">"我们很抱歉，此功能目前无法使用。"</string>
+    <string name="send_retrieve_email">"发送检索电子邮件"</string>
+    <string name="home">"首页"</string>
+    <string name="hot_deals">"热卖"</string>
+    <string name="stores_in_development">"商店（开发中）"</string>
+    <string name="my_cart">"我的购物车"</string>
+    <string name="settings">"设置"</string>
+    <string name="upload_in_development">"上传（开发中）"</string>
+    <string name="take_photo">"拍照"</string>
+    <string name="gallery">"媒体库"</string>
+    <string name="account">"帐户"</string>
+    <string name="my_profile_in_development">"个人信息（开发中）"</string>
+    <string name="sign_out">"退出"</string>
+    <string name="offered_deals_all">"搜索部门：全部"</string>
+    <string name="visit_our_sponsor">"访问我们的赞助商"</string>
+    <string name="this_department_may_be_empty_for_now_or_you_may_have_just_reentered_the_app_please_refresh_or_try_another_department">"现在这个部门可能是空的，或者你可能刚刚重新进入了应用程序。请刷新或尝试另一个部门。"</string>
+    <string name="search_by_department">"按部门搜索"</string>
+    <string name="all_departments">"所有部门"</string>
+    <string name="this_feature_is_still_being_developed_please_look_forward_to_future_updates">"这个功能还在开发中，请期待未来的更新！"</string>
+    <string name="pref_header_account">"帐户"</string>
+    <string name="change_password">"更改密码"</string>
+    <string name="please_wait">"请稍候..."</string>
+    <string name="share">"分享"</string>
+    <string name="wish_list">"愿望清单"</string>
+    <string name="add_to_cart">"添加到购物车"</string>
+    <string name="buy_now">"立即购买"</string>
+    <string name="compare">"比较"</string>
+    <string name="in_cart">"购物车："</string>
+    <string name="retailer">"零售商："</string>
+    <string name="about_this_product">"关于本产品："</string>
+    <string name="included_in_the_box">"产品包括："</string>
+    <string name="warranty">"保修："</string>
+    <string name="all">"全部"</string>
+    <string name="animals_amp_pet_supplies">"动物与宠物用品"</string>
+    <string name="apparel_amp_accessories">"服装与配饰"</string>
+    <string name="arts_amp_entertainment">"艺术与娱乐"</string>
+    <string name="baby_amp_toddler">"宝宝与婴儿"</string>
+    <string name="business_amp_industrial">"工商业"</string>
+    <string name="cameras_amp_optics">"摄影与光学"</string>
+    <string name="electronics">"电子产品"</string>
+    <string name="food_beverages_amp_tobacco">"食品，饮料与烟草"</string>
+    <string name="furniture">"家具"</string>
+    <string name="hardware">"硬件"</string>
+    <string name="health_amp_beauty">"健康与美容"</string>
+    <string name="home_amp_garden">"居家与园艺"</string>
+    <string name="luggage_amp_bags">"行李与包类"</string>
+    <string name="toys_amp_games">"玩具与游戏"</string>
+    <string name="media">"媒体"</string>
+    <string name="mature">"成人"</string>
+    <string name="office_supplies">"办公用品"</string>
+    <string name="religious_amp_ceremonial">"宗教与礼仪"</string>
+    <string name="software">"软件"</string>
+    <string name="sporting_goods">"体育用品"</string>
+    <string name="vehicles_amp_parts">"车辆与零件"</string>
+    <string name="searching_department">"搜索部门："</string>
+    <string name="internet_is_required_to_search_products">"搜索产品需要互联网。"</string>
+    <string name="offered_deals">"搜索部门："</string>
+    <string name="network_error">"网络错误！"</string>
+    <string name="internal_server_error">"内部服务器错误。"</string>
+    <string name="category">"类别"</string>
+    <string name="guest_users_do_not_have_passwords">"访客用户没有密码。"</string>
+    <string name="facebook_users_do_not_have_passwords">"Facebook用户没有密码。"</string>
+    <string name="you_have_no_items">"您的购物车是空的。"</string>
+    <string name="you_have">"您有"</string>
+    <string name="items">"个产品。"</string>
+    <string name="user_not_found">"用户未找到！"</string>
+    <string name="invalid_credentials">"无效信息！"</string>
+    <string name="you_already_deleted_this">"您已经删除了这个产品！"</string>
+    <string name="you_dont_have_enough">"你没有足够的"</string>
+    <string name="password_changed_successfully">"密码更改成功！请使用您的新密码再次登录。"</string>
+    <string name="password_cant_be_empty">"密码不能为空！"</string>
+    <string name="username_cant_be_empty">"用户名不能为空！"</string>
+    <string name="email_must_be_valid">"电子邮件必须有效！"</string>
+    <string name="make_sure_the_details_are_valid">"确保信息细节！"</string>
+    <string name="user_already_registered">"用户已经注册！"</string>
+    <string name="welcome">"欢迎光临，"</string>
+    <string name="welcome_guest_user">"欢迎光临，访客用户。"</string>
+    <string name="join_smrtcrt_by_signing_up_for_an_account">"通过注册一个帐户加入SmrtCrt。"</string>
+    <string name="guest_user">"访客用户"</string>
+    <string name="sign_up_to_experience_more_features">"注册体验更多的功能。"</string>
+    <string name="username_bug">"用户名错误"</string>
+    <string name="this_is_a_visual_bug">"这是一个视觉错误。"</string>
+    <string name="loading_cart">"购物车加载中..."</string>
+    <string name="internet_required_to_access_cart">"访问购物车需要互联网！"</string>
+    <string name="please_scan_a_smrtcrt_qr_code">"请扫描SmrtCrt商品二维码。"</string>
+    <string name="scanning_cancelled">"扫描取消"</string>
+    <string name="internet_is_required_to_access_this_smrtcrt_product">"访问此SmrtCrt产品需要互联网。"</string>
+    <string name="this_qr_code_does_not_belong_to_a_smrtcrt_product">"此二维码不属于SmrtCrt产品。"</string>
+    <string name="guest_user_cart_updated">"访客用户购物车更新完毕！"</string>
+    <string name="something_went_wrong_please_try_again">"出了些问题。请再试一次。"</string>
+    <string name="cart_updated">"购物车更新完毕！"</string>
+    <string name="please_make_sure_your_internet_connection_and_location_setting_are_turned_on">"请确保您的互联网连接和GPS设置已打开。"</string>
+    <string name="location_permission_needed">"需要GPS许可"</string>
+    <string name="your_location_can_help_us_find_the_stores_near_you">"您的位置可以帮助我们找到您附近的商店。"</string>
+    <string name="ok">"OK"</string>
+    <string name="permission_denied">"没有权限"</string>
+    <string name="popular">"火爆流行"</string>
+    <string name="trending">"全新上市"</string>
+    <string name="recommended">"温馨推荐"</string>
+    <string name="on_sale">"甩卖打折"</string>
+    <string name="no_internet">"没有互联网！"</string>
+    <string name="enter_valid_details">"输入有效的细节！"</string>
+    <string name="logging_in_as_guest_user">"以访客用户身份登录..."</string>
+    <string name="preparing_sign_in">"准备登录..."</string>
+    <string name="coming_in_future_updates">"请期待未来更新！"</string>
+    <string name="token_should_not_be_empty">"令牌不应该是空的！"</string>
+    <string name="dismiss">"解雇"</string>
+    <string name="department_list">"部门清单"</string>
+    <string name="old_password">"旧密码"</string>
+    <string name="new_password">"新密码"</string>
+    <string name="cancel">"取消"</string>
+    <string name="scan_title">"扫描SmrtCrt产品二维码。"</string>
+    <string name="has_been_deleted_from_cart">已从购物车内删除。</string>
+    <string name="stereoplusurl">http://www.stereoplus.com/en/</string>
+    <string name="adding_to_cart">正在加入购物车...</string>
+    <string name="language_setting">语言设置</string>
+    <string name="pref_header_language">语言</string>
+    <string name="invalid_old_password">您的旧密码无效。</string>
+    <string name="sign_up_with_facebook_in_development">使用Facebook注册（开发中）</string>
+    <string name="sign_up_with_twitter_in_development">使用Twitter注册（开发中）</string>
+    <string name="sign_up_with_google_in_development">使用Google+注册（开发中）</string>
+    <string name="qty">"数量: "</string>
+    <string name="visit_website">访问网站</string>
+    <string name="processing">二维码处理中...</string>
+    <string name="removing_product_from_cart">从购物车内删除产品中...</string>
+    <string name="user_registered_successfully">用户注册成功！</string>
+    <string name="this_department_has_no_more_products">此部门已经没有其他产品了。</string>
+    <string name="product_search">产品搜索</string>
+    <string name="by_name">产品</string>
+    <string name="by_store">商店</string>
+    <string name="you_searched_for">"您搜索了: "</string>
+    <string name="take_a_look_at_this_smrtcrt_product">"请关注一下这个SmrtCrt产品！ "</string>
+    <string name="website">"网站: "</string>
+    <string name="smrtcrt_product">SmrtCrt产品</string>
+    <string name="share_using">"分享: "</string>
+    <string name="empty_search_face">¯\\_(ツ)_/¯</string>
+    <string name="there_are_no_more_items_that_match_your_search">"没有更多与您的搜索匹配的项目了。"</string>
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_halfclear"
+    android:theme="@style/AppTheme.LoginRegister"
+    android:layout_gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="30dip"
+            android:id="@+id/JoinPromptText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/join_smrtcrt_by_signing_up_for_an_account"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"/>
+
+        <Button
+            android:drawableLeft="@drawable/facebooksmall"
+            android:layout_below="@+id/JoinPromptText"
+            android:padding="5dip"
+            android:layout_marginTop="15dip"
+            android:id="@+id/SignUpFacebook"
+            android:layout_width="200dip"
+            android:layout_height="35dip"
+            android:layout_centerHorizontal="true"
+            android:background="@color/facebook_blue"
+            android:text = "@string/sign_up_with_facebook_in_development"
+            android:textSize="8sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            />
+    <Button
+        android:drawableLeft="@drawable/twittersmall"
+        android:padding="5dip"
+        android:layout_marginTop="6dip"
+        android:id="@+id/SignUpTwitter"
+        android:layout_width="200dip"
+        android:layout_height="35dip"
+        android:layout_centerHorizontal="true"
+        android:background="@color/twitter_blue"
+        android:layout_below="@id/SignUpFacebook"
+        android:text = "@string/sign_up_with_twitter_in_development"
+        android:textSize="8sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        />
+        <Button
+            android:drawableLeft="@drawable/googleplussmall"
+            android:padding="5dp"
+            android:layout_marginTop="6dip"
+            android:id="@+id/SignUpGoogle"
+            android:layout_width="200dip"
+            android:layout_height="35dip"
+            android:background="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/SignUpTwitter"
+            android:text="@string/sign_up_with_google_in_development"
+            android:textSize="8sp"
+            android:textColor="@color/gray"
+            android:textAllCaps="false"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
+    <TextView
+        android:layout_below="@+id/SignUpGoogle"
+        android:id="@+id/createAccountPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_your_own_account"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="15dip"/>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/ti_name"
+
+        android:background="@color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_below="@id/createAccountPrompt">
+
+        <EditText
+
+            android:textColor="@color/white"
+            android:id="@+id/createaccount_name"
+            android:layout_width="250dip"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/username"
+            android:hint="@string/name"
+            android:textSize="12dip"
+            android:inputType="text" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/ti_email"
+        android:background="@color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ti_name"
+        android:layout_marginTop="1dip">
+
+        <EditText
+            android:textColor="@color/white"
+            android:id="@+id/createaccount_email"
+            android:layout_width="250dip"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/email"
+            android:hint="@string/email"
+            android:textSize="12dip"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/ti_password"
+        android:background="@color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ti_email"
+        android:layout_marginTop="1dip"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@android:color/white">
+
+        <EditText
+            android:textColor="@color/white"
+            android:id="@+id/createaccount_password"
+            android:layout_width="250dip"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textSize="12dip"
+            android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/CreateAccountButton"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_below="@id/ti_password"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark"
+        android:text="@string/sign_up"
+        android:textColor="@color/gray"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:onClick="signUp"
+        />
+    <ProgressBar
+        android:id="@+id/createAccountProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CreateAccountButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/button_margin"
+        android:visibility="gone"/>
+</RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.xiang.attempt001.SearchScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SearchConstraintBigScroll"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.xiang.attempt001.SearchConstraintContentFragment">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/YouHaveSearched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:text="@string/you_searched_for"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/SearchRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/YouHaveSearched"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:id="@+id/SearchLoadingProgress"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/SearchRecyclerView"/>
+        <RelativeLayout
+            android:id="@+id/emptySearchLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SearchRecyclerView"
+            android:visibility="invisible"
+
+            >
+            <TextView
+                android:id="@+id/EmptySearchFace"
+                android:textColor="@color/colorPrimary"
+                android:textSize="45sp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/empty_search_face"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/emptyoffertext"
+                android:paddingBottom="10dp"
+                android:layout_below="@id/EmptySearchFace"
+                android:textColor="@color/blue_light"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="We didn't find anything that matched your search in this tab. Select a different tab and try again."/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</com.example.xiang.attempt001.SearchScrollView>

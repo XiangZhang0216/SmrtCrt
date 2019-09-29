@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigationmenu">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_hot_deals"
+            android:icon="@drawable/hot"
+            android:title="@string/hot_deals" />
+
+        <item
+            android:id="@+id/nav_nearby_stores"
+            android:icon="@drawable/location"
+            android:title="@string/stores_in_development" />
+
+        <item
+            android:id="@+id/nav_cart"
+            app:actionViewClass="android.widget.TextView"
+            android:icon="@drawable/cart"
+            android:title="@string/my_cart" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/gear"
+            android:title="@string/settings"/>
+    </group>
+
+    <item android:title="@string/upload_in_development">
+        <menu>
+            <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/take_photo"
+                />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/gallery" />
+        </menu>
+    </item>
+
+    <item android:title="@string/account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/usernameblack"
+                android:title="@string/my_profile_in_development"/>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/exit"
+                android:title="@string/sign_out"/>
+        </menu>
+    </item>
+
+</menu>

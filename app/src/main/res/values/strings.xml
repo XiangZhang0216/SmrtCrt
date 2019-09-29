@@ -1,0 +1,266 @@
+<resources>
+    <string name="app_name">SmrtCrt</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_home_screen">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_scanner">ScannerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="search_title">Search is currently under development.</string>
+    <string name="search_hint">Search products.</string>
+    <string name="blankHotDealsContent">Hello I am hot.</string>
+
+    <integer-array name="dot_id_arr">
+        <item>@drawable/scrolltest1</item>
+        <item>@drawable/scrolltest2</item>
+        <item>@drawable/scrolltest3</item>
+    </integer-array>
+    <string name="title_activity_offer_detail">OfferDetail</string>
+    <string name="title_activity_settings_test">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="facebook_app_id">404693296591616</string>
+    <string name="fb_login_protocol_scheme">fb404693296591616</string>
+    <string name="find_new_stores_and_products">Find new stores and products.</string>
+    <string name="shop_smart_at_smrtcrt">Shop smart at SmrtCrt.</string>
+    <string name="sign_in">Sign in</string>
+    <string name="use_as_guest_user">Use as guest user</string>
+    <string name="sign_in_with_facebook_in_development">Sign in with Facebook (In Development)</string>
+    <string name="sign_in_with_twitter_in_development">Sign in with Twitter (In Development)</string>
+    <string name="sign_in_with_google_in_development">Sign in with Google+ (In Development)</string>
+    <string name="or_log_in_to_your_own_account">or log in to your own account.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="create_an_account">Create an account.</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="create_your_own_account">Create your own account.</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_your_email_here">Enter your email here.</string>
+    <string name="we_are_very_sorry_this_feature_is_currently_unavailable">We are very sorry, this feature is currently unavailable.</string>
+    <string name="send_retrieve_email">Send retrieve email</string>
+    <string name="home">Home</string>
+    <string name="hot_deals">Hot Deals</string>
+    <string name="stores_in_development">Stores (In Development)</string>
+    <string name="my_cart">My Cart</string>
+    <string name="settings">Settings</string>
+    <string name="upload_in_development">Upload (In Development)</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="account">Account</string>
+    <string name="my_profile_in_development">My Profile (In Development)</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="offered_deals_all">Deals in Department: All</string>
+    <string name="visit_our_sponsor">visit homepage</string>
+    <string name="this_department_may_be_empty_for_now_or_you_may_have_just_reentered_the_app_please_refresh_or_try_another_department">This department may be empty for now, or you may have just reentered the app. Please refresh or try another department.</string>
+    <string name="search_by_department">Search by Department</string>
+    <string name="all_departments">All Departments</string>
+    <string name="this_feature_is_still_being_developed_please_look_forward_to_future_updates">This feature is still being developed, please look forward to future updates!</string>
+    <string name="pref_header_account">Account</string>
+    <string name="change_password">Change password</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="share">Share</string>
+    <string name="wish_list">Wish List</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="compare">Compare</string>
+    <string name="in_cart">"In Cart: "</string>
+    <string name="retailer">Retailer:</string>
+    <string name="about_this_product">About this product:</string>
+    <string name="included_in_the_box">Included in the box:</string>
+    <string name="warranty">Warranty:</string>
+    <string name="all">All</string>
+    <string name="animals_amp_pet_supplies"><![CDATA[Animals & Pet Supplies]]></string>
+    <string name="apparel_amp_accessories"><![CDATA[Apparel & Accessories]]></string>
+    <string name="arts_amp_entertainment"><![CDATA[Arts & Entertainment]]></string>
+    <string name="baby_amp_toddler"><![CDATA[Baby & Toddler]]></string>
+    <string name="business_amp_industrial"><![CDATA[Business & Industrial]]></string>
+    <string name="cameras_amp_optics"><![CDATA[Cameras & Optics]]></string>
+    <string name="electronics">Electronics</string>
+    <string name="food_beverages_amp_tobacco"><![CDATA[Food, Beverages & Tobacco]]></string>
+    <string name="furniture">Furniture</string>
+    <string name="hardware">Hardware</string>
+    <string name="health_amp_beauty"><![CDATA[Health & Beauty]]></string>
+    <string name="home_amp_garden"><![CDATA[Home & Garden]]></string>
+    <string name="luggage_amp_bags"><![CDATA[Luggage & Bags]]></string>
+    <string name="toys_amp_games"><![CDATA[Toys & Games]]></string>
+    <string name="media">Media</string>
+    <string name="mature">Mature</string>
+    <string name="office_supplies">Office Supplies</string>
+    <string name="religious_amp_ceremonial"><![CDATA[Religious & Ceremonial]]></string>
+    <string name="software">Software</string>
+    <string name="sporting_goods">Sporting Goods</string>
+    <string name="vehicles_amp_parts"><![CDATA[Vehicles & Parts]]></string>
+    <string name="searching_department">"Searching department: "</string>
+    <string name="internet_is_required_to_search_products">Internet is required to search products.</string>
+    <string name="offered_deals">"Deals in Department: "</string>
+    <string name="network_error">Network Error!</string>
+    <string name="internal_server_error">Internal Server Error!</string>
+    <string name="category">Category</string>
+    <string name="guest_users_do_not_have_passwords">Guest users do not have passwords.</string>
+    <string name="facebook_users_do_not_have_passwords">Facebook users do not have passwords.</string>
+    <string name="you_have_no_items">You have no items.</string>
+    <string name="you_have">"You have "</string>
+    <string name="items">" items."</string>
+    <string name="user_not_found">User Not Found!</string>
+    <string name="invalid_credentials">Invalid Credentials!</string>
+    <string name="you_already_deleted_this">You already deleted this!</string>
+    <string name="you_dont_have_enough">You dont have enough.</string>
+    <string name="password_changed_successfully">Password changed successfully! Please log in again using your new password.</string>
+    <string name="password_cant_be_empty">Password can\'t be empty!</string>
+    <string name="username_cant_be_empty">Username can\'t be empty!</string>
+    <string name="email_must_be_valid">Email must be valid!</string>
+    <string name="make_sure_the_details_are_valid">Make sure the details are valid!</string>
+    <string name="user_already_registered">User Already Registered!</string>
+    <string name="welcome">"Welcome, "</string>
+    <string name="welcome_guest_user">Welcome, guest user.</string>
+    <string name="join_smrtcrt_by_signing_up_for_an_account">Join SmrtCrt by signing up for an account.</string>
+    <string name="guest_user">Guest User</string>
+    <string name="sign_up_to_experience_more_features">Sign up to experience more features.</string>
+    <string name="username_bug">Username Bug</string>
+    <string name="this_is_a_visual_bug">This is a visual bug.</string>
+    <string name="loading_cart">Loading cart...</string>
+    <string name="internet_required_to_access_cart">Internet required to access cart!</string>
+    <string name="please_scan_a_smrtcrt_qr_code">Please scan a SmrtCrt QR Code.</string>
+    <string name="scanning_cancelled">Scanning Cancelled</string>
+    <string name="internet_is_required_to_access_this_smrtcrt_product">Internet is required to access this SmrtCrt product.</string>
+    <string name="this_qr_code_does_not_belong_to_a_smrtcrt_product">This QR Code does not belong to a SmrtCrt product.</string>
+    <string name="guest_user_cart_updated">Guest user cart updated!</string>
+    <string name="something_went_wrong_please_try_again">Something went wrong. Please try again.</string>
+    <string name="cart_updated">Cart Updated!</string>
+    <string name="please_make_sure_your_internet_connection_and_location_setting_are_turned_on">Please make sure your internet connection and location setting are turned on.</string>
+    <string name="location_permission_needed">Location Permission Needed</string>
+    <string name="your_location_can_help_us_find_the_stores_near_you">Your location can help us find the stores near you.</string>
+    <string name="ok">OK</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="popular">Popular</string>
+    <string name="trending">Trending</string>
+    <string name="recommended">Recommended</string>
+    <string name="on_sale">On Sale</string>
+    <string name="no_internet">No Internet!</string>
+    <string name="enter_valid_details">Enter Valid Details!</string>
+    <string name="logging_in_as_guest_user">logging in as guest user...</string>
+    <string name="preparing_sign_in">preparing sign in...</string>
+    <string name="coming_in_future_updates">Coming in future updates!</string>
+    <string name="token_should_not_be_empty">Token should not be empty!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="department_list">Department List</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="scan_title">Scan a SmrtCrt product QR Code.</string>
+    <string name="has_been_deleted_from_cart">has been deleted from cart.</string>
+    <string name="stereoplusurl">http://www.stereoplus.com/en/</string>
+    <string name="adding_to_cart">adding to cart...</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="pref_header_language">Language</string>
+    <string name="invalid_old_password">Your old password is invalid.</string>
+    <string name="sign_up_with_facebook_in_development">Sign up with Facebook (In Development)</string>
+    <string name="sign_up_with_twitter_in_development">Sign up with Twitter (In Development)</string>
+    <string name="sign_up_with_google_in_development">Sign up with Google+ (In Development)</string>
+    <string name="qty">"Qty: "</string>
+    <string name="visit_website">visit website</string>
+    <string name="processing">processing QR code...</string>
+    <string name="removing_product_from_cart">removing product from cart...</string>
+    <string name="user_registered_successfully">User Registered Successfully!</string>
+    <string name="this_department_has_no_more_products">This department has no more products.</string>
+    <string name="product_search">Product Search</string>
+    <string name="by_name">Products</string>
+    <string name="by_store">Stores</string>
+    <string name="you_searched_for">"You searched for: "</string>
+    <string name="take_a_look_at_this_smrtcrt_product">"Take a look at this SmrtCrt product! "</string>
+    <string name="website">"Website: "</string>
+    <string name="smrtcrt_product">SmrtCrt Product</string>
+    <string name="share_using">"Share using: "</string>
+    <string name="empty_search_face">¯\\_(ツ)_/¯</string>
+    <string name="there_are_no_more_items_that_match_your_search">There are no more items that match your search.</string>
+</resources>

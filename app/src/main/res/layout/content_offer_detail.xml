@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/content_offer_detail"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.xiang.attempt001.OfferDetail"
+    tools:showIn="@layout/activity_offer_detail"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@drawable/barshadow"
+            />
+
+
+    <LinearLayout
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="16dip"
+        android:layout_marginBottom="16dip"
+        android:paddingBottom="90dip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Item Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/OfferDetailName"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/OfferPrice"
+        android:textSize="20dip"
+        tools:text="$0.00"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/articlecolor"
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/OfferInCartQty"
+        android:textSize="15dip"
+        android:visibility="invisible"
+        android:text="@string/in_cart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/red_light"/>
+</RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginTop="20dip"
+            android:layout_marginBottom="20dip"
+            android:text="This is a placeholder summary. Please ignore it with all the force you can."
+            android:id="@+id/OfferSummary"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/retailer"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/gogoduckredirectbutton"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/visit_website"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue_light"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+    <!--TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/OfferOwner"
+        android:lineSpacingExtra="5sp"
+        android:text="Name of the business owneing the product goes here."!-->
+
+
+
+
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/about_this_product"
+            android:textColor="@color/blue"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/OfferDescription"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="5sp"
+            android:gravity="left"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Color:"
+            android:textColor="@color/blue"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/OfferColor"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="5sp"
+            android:gravity="left"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Condition:"
+            android:textColor="@color/blue"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/OfferCondition"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="5sp"
+            android:gravity="left"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Age Group:"
+            android:textColor="@color/blue"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/OfferAgeGroup"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="5sp"
+            android:gravity="left"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Availability:"
+            android:textColor="@color/blue"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/OfferAvailability"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="5sp"
+            android:gravity="left"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Gender:"
+            android:textColor="@color/blue"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/OfferGender"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="5sp"
+            android:gravity="left"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Brand:"
+            android:textColor="@color/blue"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/OfferBrand"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="5sp"
+            android:gravity="left"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Product Type:"
+            android:textColor="@color/blue"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/OfferProductType"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="5sp"
+            android:gravity="left"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Related products: "
+            android:textColor="@color/blue"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20sp"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/offerDetailSquareBar"
+            android:scrollbars="none">
+        </android.support.v7.widget.RecyclerView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
+

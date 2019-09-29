@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.xiang.attempt001.ListenerScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:id="@+id/homebigscroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app = "http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:backgroundTint="@color/article_title"
+        android:id="@+id/homefragmentrelativelayout"
+
+        >
+
+<!--ViewPager goes here!-->
+        <Button
+            android:id="@+id/sponsorButton"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_width="120sp"
+            android:textAllCaps="false"
+            android:layout_height="35dp"
+            android:backgroundTint="@color/colorDarkGrey"
+            android:textColor="@color/white"
+            android:onClick="gotoWebsite"
+            android:text="@string/visit_our_sponsor"/>
+
+        <com.chabbal.slidingdotsplash.SlidingSplashView
+            android:id = "@+id/splash"
+            android:layout_width = "match_parent"
+            android:layout_height="160dip"
+            app:imageResources = "@array/dot_id_arr"
+            android:onClick="gotoWebsite"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id = "@+id/homeSquareBar"
+            android:layout_width="match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop="160dip"
+            android:scrollbars = "none"
+            />
+        <TextView
+            android:paddingTop="10dip"
+            android:paddingBottom="7dip"
+            android:paddingLeft="13dip"
+            android:id = "@+id/LimitedOffersHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homeSquareBar"
+            android:text="@string/offered_deals_all"
+            android:textSize="15sp"
+            android:textColor="@color/apptheme_color"
+            android:layout_gravity="center_vertical"
+
+
+            android:layout_centerVertical="true"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/LimitedOffersRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LimitedOffersHeader"
+            android:layout_centerHorizontal="true"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+
+
+            android:id="@+id/scrollLoadingProgress"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/LimitedOffersRecyclerView"/>
+        <RelativeLayout
+            android:id="@+id/emptyofferlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LimitedOffersRecyclerView"
+            android:layout_marginLeft="40dp"
+
+            android:visibility="visible"
+
+            >
+            <ImageView
+                android:id="@+id/emptyofferimage"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/warningblue"/>
+            <TextView
+                android:id="@+id/emptyoffertext"
+                android:layout_marginLeft="20dp"
+                android:paddingBottom="10dp"
+                android:layout_toRightOf="@id/emptyofferimage"
+                android:textColor="@color/blue_light"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/this_department_may_be_empty_for_now_or_you_may_have_just_reentered_the_app_please_refresh_or_try_another_department"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</com.example.xiang.attempt001.ListenerScrollView>

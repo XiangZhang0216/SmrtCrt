@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">"SmrtCrt"</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">"E-mail"</string>
+    <string name="prompt_password">"Password (opzionale)"</string>
+    <string name="action_sign_in">"Entra o Registrati"</string>
+    <string name="action_sign_in_short">"Registrati"</string>
+    <string name="error_invalid_email">"Questo indirizzo e-mail non è valido"</string>
+    <string name="error_invalid_password">"Questa password è troppo corta"</string>
+    <string name="error_incorrect_password">"Questa password non è corretta"</string>
+    <string name="error_field_required">"Questo campo è obbligatorio"</string>
+    <string name="permission_rationale">"Le autorizzazioni per i contatti sono necessarie per fornire completamenti di posta elettronica\".
+    "</string>
+    <string name="title_activity_home_screen">"Casa"</string>
+
+    <string name="navigation_drawer_open">"Apri la funzionalità di navigazione"</string>
+    <string name="navigation_drawer_close">"Chiudi il cassetto di navigazione"</string>
+
+    <string name="action_settings">"impostazioni"</string>
+
+    <string name="title_activity_scanner">"ScannerActivity"</string>
+    <string name="dummy_button">"Dummy Button"</string>
+    <string name="dummy_content">"DUMMY\nCONTENT"</string>
+    <string name="search_title">"La ricerca è attualmente in fase di sviluppo."</string>
+    <string name="search_hint">"Cerca prodotti."</string>
+    <string name="blankHotDealsContent">"Ciao sono caldo."</string>
+
+    <integer-array name="dot_id_arr">
+        <item>@drawable/scrolltest1</item>
+        <item>@drawable/scrolltest2</item>
+        <item>@drawable/scrolltest3</item>
+    </integer-array>
+    <string name="title_activity_offer_detail">"OfferDetail"</string>
+    <string name="title_activity_settings_test">"impostazioni"</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">"Generale"</string>
+
+    <string name="pref_title_social_recommendations">"Abilita raccomandazioni sociali"</string>
+    <string name="pref_description_social_recommendations">"Raccomandazioni per le persone a contattare in base alla tua storia del messaggio
+    "</string>
+
+    <string name="pref_title_display_name">"Nome da visualizzare"</string>
+    <string name="pref_default_display_name">"John Smith"</string>
+
+    <string name="pref_title_add_friends_to_messages">"Aggiungi amici ai messaggi"</string>
+    <string-array name="pref_example_list_titles">
+        <item>"Sempre"</item>
+        <item>"Quando possibile"</item>
+        <item>"Mai"</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>"1"</item>
+        <item>"0"</item>
+        <item>"-1"</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">"Dati e sincronizzazione"</string>
+
+    <string name="pref_title_sync_frequency">"frequenza di sincronizzazione"</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>"15 minuti"</item>
+        <item>"30 minuti"</item>
+        <item>"1 ora"</item>
+        <item>"3 ore"</item>
+        <item>"6 ore"</item>
+        <item>"Mai"</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>"15"</item>
+        <item>"30"</item>
+        <item>"60"</item>
+        <item>"180"</item>
+        <item>"360"</item>
+        <item>"-1"</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>"Entrata 1"</item>
+        <item>"Entrata 2"</item>
+        <item>"INGRESSO"</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value"/>
+
+    <string name="pref_title_system_sync_settings">"Impostazioni di sincronizzazione del sistema"</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">"notifiche"</string>
+
+    <string name="pref_title_new_message_notifications">"Notifiche di nuovi messaggi"</string>
+
+    <string name="pref_title_ringtone">"Suoneria"</string>
+    <string name="pref_ringtone_silent">"Silenzioso"</string>
+
+    <string name="pref_title_vibrate">"Vibrazione"</string>
+
+    <string name="facebook_app_id">"10 10 10 10 10 10"</string>
+    <string name="fb_login_protocol_scheme">"fb404693296591616"</string>
+    <string name="find_new_stores_and_products">"Trova nuovi negozi e prodotti."</string>
+    <string name="shop_smart_at_smrtcrt">"Negozio intelligente a SmrtCrt."</string>
+    <string name="sign_in">"Registrati"</string>
+    <string name="use_as_guest_user">"Utilizza come utente ospite"</string>
+    <string name="sign_in_with_facebook_in_development">"Accedi con Facebook (in sviluppo)"</string>
+    <string name="sign_in_with_twitter_in_development">"Accedi con Twitter (in sviluppo)"</string>
+    <string name="sign_in_with_google_in_development">"Accedi con Google+ (in sviluppo)"</string>
+    <string name="or_log_in_to_your_own_account">"oppure accedere al proprio account."</string>
+    <string name="email">"Email"</string>
+    <string name="password">"Parola d'ordine"</string>
+    <string name="log_in">"Accesso"</string>
+    <string name="create_an_account">"Crea un account"</string>
+    <string name="forgot_password">"Ha dimenticato la password?"</string>
+    <string name="create_your_own_account">"Crea il tuo conto personale."</string>
+    <string name="name">"Nome"</string>
+    <string name="sign_up">"Registrati"</string>
+    <string name="enter_your_email_here">"Inserisci la tua email qua."</string>
+    <string name="we_are_very_sorry_this_feature_is_currently_unavailable">"Siamo spiacenti, questa funzionalità non è attualmente disponibile."</string>
+    <string name="send_retrieve_email">"Invia recupera email"</string>
+    <string name="home">"Casa"</string>
+    <string name="hot_deals">"Grandi Affari"</string>
+    <string name="stores_in_development">"Negozi (In Sviluppo)"</string>
+    <string name="my_cart">"La Mia Carta"</string>
+    <string name="settings">"Impostazioni"</string>
+    <string name="upload_in_development">"Carica (In Sviluppo)"</string>
+    <string name="take_photo">"Scatta una Foto"</string>
+    <string name="gallery">"Galleria"</string>
+    <string name="account">"Account"</string>
+    <string name="my_profile_in_development">"Il Mio Profilo (In Sviluppo)"</string>
+    <string name="sign_out">"Disconnessione"</string>
+    <string name="offered_deals_all">"Dipartimento: Tutti"</string>
+    <string name="visit_our_sponsor">"visita il nostro sponsor"</string>
+    <string name="this_department_may_be_empty_for_now_or_you_may_have_just_reentered_the_app_please_refresh_or_try_another_department">"Questo reparto potrebbe essere vuoto per adesso oppure potrebbe essere rientrato appena nell'applicazione. Aggiorna o prova un altro reparto."</string>
+    <string name="search_by_department">"Ricerca per reparto"</string>
+    <string name="all_departments">"Tutti i dipartimenti"</string>
+    <string name="this_feature_is_still_being_developed_please_look_forward_to_future_updates">"Questa funzionalità è ancora in fase di sviluppo, ti invitiamo ad attendere gli aggiornamenti futuri!"</string>
+    <string name="pref_header_account">"Account"</string>
+    <string name="change_password">"Cambia la password"</string>
+    <string name="please_wait">"Attendere prego..."</string>
+    <string name="share">"Condividi"</string>
+    <string name="wish_list">"Lista dei Desideri"</string>
+    <string name="add_to_cart">"Aggiungi al Carrello"</string>
+    <string name="buy_now">"Acquista Ora"</string>
+    <string name="compare">"Confrontare"</string>
+    <string name="in_cart">"Nel Carrello: "</string>
+    <string name="retailer">"Rivenditore:"</string>
+    <string name="about_this_product">"Informazioni sul prodotto:"</string>
+    <string name="included_in_the_box">"Incluso nella confezione:"</string>
+    <string name="warranty">"Garanzia"</string>
+    <string name="all">"Tutti"</string>
+    <string name="animals_amp_pet_supplies">"Forniture per Animali Domestici"</string>
+    <string name="apparel_amp_accessories">"Abbigliamento e Accessori"</string>
+    <string name="arts_amp_entertainment">"Arte e Intrattenimento"</string>
+    <string name="baby_amp_toddler">"Bambino e Bambino Piccolo"</string>
+    <string name="business_amp_industrial">"Attività Commerciale e  Industriale"</string>
+    <string name="cameras_amp_optics">"Fotocamere e Ottiche"</string>
+    <string name="electronics">"Elettronica"</string>
+    <string name="food_beverages_amp_tobacco">"Alimenti, Bevande e Tabacco"</string>
+    <string name="furniture">"Mobili"</string>
+    <string name="hardware">"Hardware"</string>
+    <string name="health_amp_beauty">"Salute e Bellezza"</string>
+    <string name="home_amp_garden">"Casa e Giardino"</string>
+    <string name="luggage_amp_bags">"Borse"</string>
+    <string name="toys_amp_games">"Giocattoli e Giochi"</string>
+    <string name="media">"Media"</string>
+    <string name="mature">"Matur"</string>
+    <string name="office_supplies">"Forniture per Ufficio"</string>
+    <string name="religious_amp_ceremonial">"Religioso e Cerimoniale"</string>
+    <string name="software">"Software"</string>
+    <string name="sporting_goods">"Articoli Sportivi"</string>
+    <string name="vehicles_amp_parts">"Veicoli e Parti"</string>
+    <string name="searching_department">"Ricerca del Dipartimento: "</string>
+    <string name="internet_is_required_to_search_products">"Per la ricerca dei prodotti è necessario eseguire Internet."</string>
+    <string name="offered_deals">"Dipartimento: "</string>
+    <string name="network_error">"Errore di Connessione Alla Rete!"</string>
+    <string name="internal_server_error">"Errore Server Interno!"</string>
+    <string name="category">"Categoria"</string>
+    <string name="guest_users_do_not_have_passwords">"Gli utenti ospiti non dispongono di password."</string>
+    <string name="facebook_users_do_not_have_passwords">"Gli utenti di Facebook non dispongono di password."</string>
+    <string name="you_have_no_items">"Non hai articoli."</string>
+    <string name="you_have">"Hai "</string>
+    <string name="items">" elementi."</string>
+    <string name="user_not_found">"Utente non trovato!"</string>
+    <string name="invalid_credentials">"Credenziali non valide!"</string>
+    <string name="you_already_deleted_this">"Hai già eliminato questo!"</string>
+    <string name="you_dont_have_enough">"Non hai abbastanza."</string>
+    <string name="password_changed_successfully">"Password modificata con successo! Accedi nuovamente utilizzando la nuova password."</string>
+    <string name="password_cant_be_empty">"Il campo \"Password\" non può essere vuoto"</string>
+    <string name="username_cant_be_empty">"Il nome utente non può essere vuoto!"</string>
+    <string name="email_must_be_valid">"L'email deve essere valida!"</string>
+    <string name="make_sure_the_details_are_valid">"Assicurarsi che i dettagli siano validi!"</string>
+    <string name="user_already_registered">"Utente già registrato!"</string>
+    <string name="welcome">"Benvenuto, "</string>
+    <string name="welcome_guest_user">"Benvenuto, utente ospite."</string>
+    <string name="join_smrtcrt_by_signing_up_for_an_account">"Iscriviti a SmrtCrt firmando un account."</string>
+    <string name="guest_user">"Utente Ospite"</string>
+    <string name="sign_up_to_experience_more_features">"Registrati per sperimentare altre funzionalità."</string>
+    <string name="username_bug">"Nome utente Bug"</string>
+    <string name="this_is_a_visual_bug">"Questo è un bug visivo."</string>
+    <string name="loading_cart">"Caricamento carrello ..."</string>
+    <string name="internet_required_to_access_cart">"Internet richiesto per accedere al carrello!"</string>
+    <string name="please_scan_a_smrtcrt_qr_code">"Scansione di un codice QR di SmrtCrt."</string>
+    <string name="scanning_cancelled">"Scansione annullata"</string>
+    <string name="internet_is_required_to_access_this_smrtcrt_product">"Per accedere a questo prodotto SmrtCrt è necessario l'accesso a Internet."</string>
+    <string name="this_qr_code_does_not_belong_to_a_smrtcrt_product">"Questo codice QR non appartiene ad un prodotto SmrtCrt."</string>
+    <string name="guest_user_cart_updated">"Aggiornato il carrello degli utenti utente!"</string>
+    <string name="something_went_wrong_please_try_again">"Qualcosa è andato storto. Riprova!"</string>
+    <string name="cart_updated">"Carrello aggiornato!"</string>
+    <string name="please_make_sure_your_internet_connection_and_location_setting_are_turned_on">"Assicurati che l'impostazione della connessione Internet e della posizione sia attivata."</string>
+    <string name="location_permission_needed">"La necessaria autorizzazione di ubicazione"</string>
+    <string name="your_location_can_help_us_find_the_stores_near_you">"La tua posizione può aiutarci a trovare i negozi vicino a te."</string>
+    <string name="ok">"OK"</string>
+    <string name="permission_denied">"Permesso negato"</string>
+    <string name="popular">"Popolari"</string>
+    <string name="trending">"Di tendenza"</string>
+    <string name="recommended">"Consigliato"</string>
+    <string name="on_sale">"In vendita"</string>
+    <string name="no_internet">"Senza internet!"</string>
+    <string name="enter_valid_details">"Inserisci i dati validi!"</string>
+    <string name="logging_in_as_guest_user">"accedere come utente ospiti ..."</string>
+    <string name="preparing_sign_in">"preparare l'accesso ..."</string>
+    <string name="coming_in_future_updates">"Venendo in futuro aggiornamenti!"</string>
+    <string name="token_should_not_be_empty">"Il token non deve essere vuoto!"</string>
+    <string name="dismiss">"Respingere"</string>
+    <string name="department_list">"Elenco dei Dipartimenti"</string>
+    <string name="old_password">"vecchia password"</string>
+    <string name="new_password">"Nuova password"</string>
+    <string name="cancel">"Annulla"</string>
+    <string name="scan_title">"Scansione di un codice QR prodotto."</string>
+    <string name="has_been_deleted_from_cart">è stato eliminato dal carrello.</string>
+    <string name="stereoplusurl">http://www.stereoplus.com/en/</string>
+    <string name="adding_to_cart">aggiungendo al carrello...</string>
+    <string name="language_setting">Impostazione della lingua</string>
+    <string name="pref_header_language">Lingua</string>
+    <string name="invalid_old_password">La tua vecchia password non è valida.</string>
+    <string name="sign_up_with_facebook_in_development">Registrati con Facebook (In Sviluppo)</string>
+    <string name="sign_up_with_twitter_in_development">Registrati con Twitter (In Sviluppo)</string>
+    <string name="sign_up_with_google_in_development">Registrati con Google+ (In Sviluppo)</string>
+    <string name="qty">"Qta: "</string>
+    <string name="visit_website">visita il sito web</string>
+    <string name="processing">il codice QR di elaborazione...</string>
+    <string name="removing_product_from_cart">rimuovere il prodotto dal carrello...</string>
+    <string name="user_registered_successfully">Utente Registrato con Successo!</string>
+    <string name="this_department_has_no_more_products">"Questo reparto non ha più prodotti."</string>
+    <string name="product_search">Ricerca del Prodotto</string>
+    <string name="by_name">Prodotti</string>
+    <string name="by_store">I negozi</string>
+    <string name="you_searched_for">"Tu hai cercato per: "</string>
+    <string name="take_a_look_at_this_smrtcrt_product">"Dare un'occhiata a questo prodotto SmrtCrt! "</string>
+    <string name="website">"Sito Web: "</string>
+    <string name="smrtcrt_product">Prodotto SmrtCrt</string>
+    <string name="share_using">"Condividere: "</string>
+    <string name="empty_search_face">¯\\_(ツ)_/¯</string>
+    <string name="there_are_no_more_items_that_match_your_search">"Non ci sono più articoli che corrispondono alla tua ricerca."</string>
+</resources>

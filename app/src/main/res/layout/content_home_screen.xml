@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dip"
+    android:paddingLeft="0dip"
+    android:paddingRight="0dip"
+    android:paddingTop="0dip"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.xiang.attempt001.HomeScreen"
+    tools:showIn="@layout/app_bar_home_screen">
+
+
+    <FrameLayout
+        android:id = "@+id/content_home_screen_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment">
+    </FrameLayout>
+
+    <FrameLayout android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        ></FrameLayout>
+    <View
+        android:id="@+id/HomeScreenShadow"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/barshadow"/>
+
+</RelativeLayout>

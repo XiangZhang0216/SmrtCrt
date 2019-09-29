@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.xiang.attempt001.OfferDetail">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id = "@+id/offer_detail_appbar_layout"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_height="wrap_content">
+
+        <!--android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" !-->
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/offer_detail_collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id = "@+id/OfferDetailImage"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitCenter"
+                    app:layout_collapseMode="parallax"
+                    android:layout_height="200dip" />
+                <ProgressBar
+                    android:theme="@style/AppTheme.LoginRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/offerdetailprogress"/>
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/mToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/TitleBars"
+                app:layout_collapseMode="pin"/>
+
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+
+
+    <include layout="@layout/content_offer_detail" />
+
+
+
+    <!--android.support.v7.widget.Toolbar
+        android:id="@+id/AddToCartBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:backgroundTint="@color/colorAccent"
+        android:layout_gravity="bottom"
+        !-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:background="@color/gray"
+            android:layout_gravity="bottom"
+            android:id="@+id/AddToCartBarLayout">
+            <Button
+                android:id="@+id/shareProduct"
+                android:drawableTop="@drawable/ic_menu_share"
+                android:paddingTop="7dip"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:background="@color/white"
+                android:text="@string/share"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/addToWishList"
+                android:drawableTop="@drawable/wishlistgray"
+                android:paddingTop="7dip"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:background="@color/white"
+                android:text= "@string/wish_list"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/addProduct"
+                android:paddingTop="7dip"
+                android:drawableTop="@drawable/add"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:background="@color/white"
+                android:text="@string/add_to_cart"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/buyNow"
+                android:drawableTop="@drawable/buynowgray"
+                android:paddingTop="7dip"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:background="@color/white"
+                android:text="@string/buy_now"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                />
+            <Button
+            android:id="@+id/compareProduct"
+            android:drawableTop="@drawable/comparegray"
+                android:paddingTop="7dip" android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:background="@color/white"
+            android:text="@string/compare"
+                android:textColor="@color/gray"
+            android:textAllCaps="false"
+            android:textSize="10sp"
+            android:layout_weight="1"
+                />
+        </LinearLayout>
+    <!--android.support.v7.widget.Toolbar!-->
+
+
+
+</android.support.design.widget.CoordinatorLayout>

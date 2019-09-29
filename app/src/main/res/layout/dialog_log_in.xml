@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/logindialog"
+    android:background="@color/dialog_halfclear"
+    android:layout_gravity="center">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:drawableLeft="@drawable/facebooksmall"
+            android:padding="5dip"
+            android:layout_marginTop="30dip"
+            android:id="@+id/LogInFacebook"
+            android:layout_width="200dip"
+            android:layout_height="35dip"
+            android:layout_centerHorizontal="true"
+            android:background="@color/facebook_blue"
+            android:text = "@string/sign_in_with_facebook_in_development"
+            android:textSize="8sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            />
+        <!--com.facebook.login.widget.LoginButton
+            android:id="@+id/RealLoginFacebook"
+            android:layout_marginTop="30dip"
+            android:layout_width="200dip"
+            android:layout_height="35dip"
+            android:layout_centerHorizontal="true"
+            !-->
+        <Button
+            android:drawableLeft="@drawable/twittersmall"
+            android:padding="5dip"
+            android:layout_marginTop="6dip"
+            android:id="@+id/LogInTwitter"
+            android:layout_width="200dip"
+            android:layout_height="35dip"
+            android:layout_centerHorizontal="true"
+            android:background="@color/twitter_blue"
+            android:layout_below="@id/LogInFacebook"
+            android:text = "@string/sign_in_with_twitter_in_development"
+            android:textSize="8sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            />
+        />
+        <Button
+            android:drawableLeft="@drawable/googleplussmall"
+            android:padding="5dp"
+            android:layout_marginTop="6dip"
+            android:id="@+id/LogInGoogle"
+            android:layout_width="200dip"
+            android:layout_height="35dip"
+            android:background="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/LogInTwitter"
+            android:text="@string/sign_in_with_google_in_development"
+            android:textSize="8sp"
+            android:textColor="@color/gray"
+            android:textAllCaps="false"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
+        <TextView
+            android:id="@+id/logInPrompt"
+            android:layout_width="200dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="@string/or_log_in_to_your_own_account"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_below="@id/LogInGoogle"
+            android:layout_marginTop="10dip"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ti_login_email"
+            android:background="@color/transparent"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LogInGoogle"
+            android:layout_marginTop="40dip"
+            >
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="250dip"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/email"
+            android:hint="@string/email"
+            android:textSize="12dip"
+            android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ti_login_password"
+            android:background="@color/transparent"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ti_login_email"
+            android:layout_marginTop="1dip"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/white">
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="250dip"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textSize="12dip"
+            android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/LogInButton"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:layout_marginTop="5dip"
+                android:layout_below="@id/ti_login_password"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark"
+                android:text="@string/log_in"
+                android:textColor="@color/gray"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:layout_centerHorizontal="true"
+
+                android:layout_gravity="center_horizontal"
+                 />
+
+<RelativeLayout
+    android:id="@+id/textLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/LogInButton"
+    android:layout_marginTop="10dip"
+    android:layout_marginBottom="20dip"
+    >
+    <TextView
+        android:id="@+id/CreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_an_account"
+        android:textSize="10dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dip"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:id="@+id/ForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textSize="10dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dip"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/logInProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/button_margin"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+</ScrollView>
+</LinearLayout>

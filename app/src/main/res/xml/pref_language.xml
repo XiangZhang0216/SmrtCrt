@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <Preference
+        android:title="English"
+        android:key="change_language_pref_en"
+        />
+    <Preference
+        android:title="Français"
+        android:key="change_language_pref_fr"
+        />
+    <Preference
+        android:title="Italiano"
+        android:key="change_language_pref_it"
+        />
+    <Preference
+        android:title="中文(简体)"
+        android:key="change_language_pref_zh"
+        />
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>

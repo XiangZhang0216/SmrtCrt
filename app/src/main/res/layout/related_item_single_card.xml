@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dip"
+    app:contentPaddingLeft="6dp"
+    app:contentPaddingRight="6dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:background="?android:selectableItemBackground"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <ImageView
+                android:id="@+id/relatedItemImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitCenter"
+
+                />
+            <ProgressBar
+                android:id="@+id/relatedItemProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="visible"/>
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/relatedItemName"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity = "center_horizontal"
+            android:text="Related Item Title"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relatedItemPrice"
+            android:layout_gravity = "center_horizontal"
+            android:textColor="@color/blue_light"
+            android:textSize="15sp"
+            android:text="$000.00"
+            android:layout_marginRight="18dp"
+            />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
